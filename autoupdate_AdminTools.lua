@@ -19,7 +19,7 @@ local script_vers_text = "1.00"
 local update_url = "https://raw.githubusercontent.com/Aodzaki/AdminTools/main/update.ini"   
 local update_path = getWorkingDirectory() .. "/update.ini"
 
-local script_url = ""  
+local script_url = "https://github.com/Aodzaki/AdminTools/raw/main/autoupdate_AdminTools.lua"  
 local script_path = thisScript().path
 
 
