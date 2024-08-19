@@ -13,8 +13,8 @@ u8 = encoding.UTF8
 
 update_state = false
 
-local script_vers = 1
-local script_vers_text = "1.00"
+local script_vers = 2
+local script_vers_text = "1.01"
 
 local update_url = "https://raw.githubusercontent.com/Aodzaki/AdminTools/main/update.ini"   
 local update_path = getWorkingDirectory() .. "/update.ini"
@@ -59,5 +59,5 @@ function main()
 end 
 
 function cmd_update(arg) 
-    sampShowDialog(1000, "Автообновление", "Это урок по обновлению", "Закрыть", "", 0) 
+    sampShowDialog(1000, "Автообновление НОВОЕ", "Это урок по обновлению", "Закрыть", "", 0) 
 end
